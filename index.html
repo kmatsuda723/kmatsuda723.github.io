@@ -12,219 +12,140 @@
   </head>
   <body>
     <header class="site-header" data-header>
-      <a class="brand" href="#top" aria-label="Kazushige Matsuda home">
-        <span class="brand-mark">KM</span>
-        <span>Kazushige Matsuda</span>
-      </a>
-      <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" data-nav-toggle>
-        <span></span>
-        <span></span>
-      </button>
-      <nav class="site-nav" data-nav>
-        <a href="#profile">Profile</a>
-        <a href="#working-papers">Working Papers</a>
-        <a href="#publications">Publications</a>
-        <a href="#in-progress">In Progress</a>
-        <a href="#contact">Contact</a>
-      </nav>
+      <div class="masthead-inner">
+        <a class="brand" href="#top" aria-label="Kazushige Matsuda home">Kazushige Matsuda</a>
+        <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" data-nav-toggle>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav" data-nav>
+          <a href="#profile">Profile</a>
+          <a href="#working-papers">Working Papers</a>
+          <a href="#publications">Publications</a>
+          <a href="#in-progress">In Progress</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
     </header>
 
-    <main id="top">
-      <section class="hero" aria-labelledby="hero-title">
-        <img class="hero-image" src="assets/research-hero.png" alt="A quiet university office with books, open notes, and research visualizations on a laptop.">
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-          <p class="eyebrow">Associate Professor at Keio University</p>
-          <h1 id="hero-title">Kazushige Matsuda</h1>
-          <p class="hero-copy">
+    <main class="page" id="top">
+      <aside class="author-profile" aria-label="Author profile">
+        <img class="author-avatar" src="assets/research-hero.png" alt="Research desk with books and notes.">
+        <h1>Kazushige Matsuda</h1>
+        <p class="author-title">Associate Professor at Keio University</p>
+        <p class="author-bio">
+          Macroeconomics, labor economics, and the economics of higher education.
+        </p>
+        <ul class="author-links">
+          <li><span>Education</span>Ph.D., Princeton University, 2019</li>
+          <li><span>Email</span><a href="mailto:kazu.matsuda@keio.jp">kazu.matsuda@keio.jp</a></li>
+          <li><span>CV</span><a href="https://docs.google.com/document/d/1T2rbT7WUX3Q8B1uNR4nVDJ2wXpMG-qlX5laKw-EmkTM/edit?usp=sharing" target="_blank" rel="noreferrer">View curriculum vitae</a></li>
+        </ul>
+      </aside>
+
+      <div class="page-content">
+        <section class="page-section" id="profile" aria-labelledby="profile-title">
+          <h2 id="profile-title">Profile</h2>
+          <p>
+            I am an Associate Professor at <strong>Keio University</strong>. My research interests are
+            <strong>macroeconomics</strong>, <strong>labor economics</strong>, and the
+            <strong>economics of higher education</strong>.
+          </p>
+          <p>
             I study how universities and educational systems shape talent allocation and knowledge production,
             and how these mechanisms affect productivity, innovation, inequality, and mobility.
           </p>
-          <div class="hero-actions" aria-label="Primary links">
-            <a class="button primary" href="#working-papers">View research</a>
-            <a class="button secondary" href="https://docs.google.com/document/d/1T2rbT7WUX3Q8B1uNR4nVDJ2wXpMG-qlX5laKw-EmkTM/edit?usp=sharing" target="_blank" rel="noreferrer">CV</a>
-          </div>
-        </div>
-      </section>
+        </section>
 
-      <section class="intro section-band" id="profile" aria-label="Profile summary">
-        <div class="section-inner intro-grid">
-          <div>
-            <p class="section-kicker">Profile</p>
-            <h2>Macroeconomics, labor economics, and higher education.</h2>
-          </div>
-          <div class="intro-text">
-            <p>
-              I am an Associate Professor at <strong>Keio University</strong>. My research interests are
-              macroeconomics, labor economics, and the economics of higher education.
-            </p>
-            <ul class="profile-list">
-              <li><span>Education</span><strong>Ph.D., Princeton University, 2019</strong></li>
-              <li><span>Email</span><a href="mailto:kazu.matsuda@keio.jp">kazu.matsuda@keio.jp</a></li>
-              <li><span>CV</span><a href="https://docs.google.com/document/d/1T2rbT7WUX3Q8B1uNR4nVDJ2wXpMG-qlX5laKw-EmkTM/edit?usp=sharing" target="_blank" rel="noreferrer">View curriculum vitae</a></li>
-            </ul>
-          </div>
-        </div>
-      </section>
+        <section class="page-section" id="research" aria-labelledby="research-title">
+          <h2 id="research-title">Research Interests</h2>
+          <ul class="plain-list">
+            <li>Macroeconomics</li>
+            <li>Labor Economics</li>
+            <li>Economics of Higher Education</li>
+          </ul>
+        </section>
 
-      <section class="section" id="research" aria-labelledby="research-title">
-        <div class="section-inner">
-          <div class="section-heading">
-            <p class="section-kicker">Research Areas</p>
-            <h2 id="research-title">Questions I work on</h2>
-          </div>
-          <div class="topic-grid">
-            <article class="topic-card">
-              <span class="topic-number">01</span>
-              <h3>Macroeconomics</h3>
-              <p>Quantitative models of education, talent allocation, productivity, and mobility.</p>
-            </article>
-            <article class="topic-card">
-              <span class="topic-number">02</span>
-              <h3>Labor Economics</h3>
-              <p>Human capital formation, inequality, occupational choice, and intergenerational outcomes.</p>
-            </article>
-            <article class="topic-card">
-              <span class="topic-number">03</span>
-              <h3>Higher Education</h3>
-              <p>University policy, tuition, research production, subsidies, and the organization of colleges.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section muted" id="working-papers" aria-labelledby="working-papers-title">
-        <div class="section-inner">
-          <div class="section-heading split">
-            <div>
-              <p class="section-kicker">Working Papers</p>
-              <h2 id="working-papers-title">Current manuscripts</h2>
-            </div>
-            <a class="text-link" href="https://docs.google.com/document/d/1T2rbT7WUX3Q8B1uNR4nVDJ2wXpMG-qlX5laKw-EmkTM/edit?usp=sharing" target="_blank" rel="noreferrer">Full CV</a>
+        <section class="page-section" id="working-papers" aria-labelledby="working-papers-title">
+          <div class="section-title-row">
+            <h2 id="working-papers-title">Working Papers</h2>
+            <a href="https://docs.google.com/document/d/1T2rbT7WUX3Q8B1uNR4nVDJ2wXpMG-qlX5laKw-EmkTM/edit?usp=sharing" target="_blank" rel="noreferrer">Full CV</a>
           </div>
 
-          <div class="publication-list">
-            <article class="publication">
-              <div class="pub-meta">2026</div>
-              <div>
-                <h3><a href="https://drive.google.com/file/d/1nzuZTDHmkbnsTxh0w-IXWzrHURzxIFSX/view" target="_blank" rel="noreferrer">Spatial Misallocation in Education: The Left-Behind and Land Reforms in China</a></h3>
-                <p class="pub-authors">with Karol Mazur and Chao Shen</p>
-                <div class="pub-links">
-                  <a href="https://drive.google.com/file/d/1nzuZTDHmkbnsTxh0w-IXWzrHURzxIFSX/view" target="_blank" rel="noreferrer">Paper</a>
-                </div>
-              </div>
-            </article>
+          <article class="publication">
+            <h3>
+              <a href="https://drive.google.com/file/d/1nzuZTDHmkbnsTxh0w-IXWzrHURzxIFSX/view" target="_blank" rel="noreferrer">Spatial Misallocation in Education: The Left-Behind and Land Reforms in China</a>
+            </h3>
+            <p class="pub-meta">2026</p>
+            <p>with Karol Mazur and Chao Shen</p>
+            <p><a href="https://drive.google.com/file/d/1nzuZTDHmkbnsTxh0w-IXWzrHURzxIFSX/view" target="_blank" rel="noreferrer">Paper</a></p>
+          </article>
 
-            <article class="publication">
-              <div class="pub-meta">2026</div>
-              <div>
-                <h3><a href="https://damiencapelle.com/wp-content/uploads/2026/05/Capelle-Matsuda-The-Great-Gatsby-May-2026.pdf" target="_blank" rel="noreferrer">The Great Gatsby Goes to College: Tuition, Inequality, and Intergenerational Mobility</a></h3>
-                <p class="pub-authors">with Damien Capelle</p>
-                <div class="pub-links">
-                  <a href="https://damiencapelle.com/wp-content/uploads/2026/05/Capelle-Matsuda-The-Great-Gatsby-May-2026.pdf" target="_blank" rel="noreferrer">Paper</a>
-                </div>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
+          <article class="publication">
+            <h3>
+              <a href="https://damiencapelle.com/wp-content/uploads/2026/05/Capelle-Matsuda-The-Great-Gatsby-May-2026.pdf" target="_blank" rel="noreferrer">The Great Gatsby Goes to College: Tuition, Inequality, and Intergenerational Mobility</a>
+            </h3>
+            <p class="pub-meta">2026</p>
+            <p>with Damien Capelle</p>
+            <p><a href="https://damiencapelle.com/wp-content/uploads/2026/05/Capelle-Matsuda-The-Great-Gatsby-May-2026.pdf" target="_blank" rel="noreferrer">Paper</a></p>
+          </article>
+        </section>
 
-      <section class="section" id="publications" aria-labelledby="publications-title">
-        <div class="section-inner">
-          <div class="section-heading">
-            <p class="section-kicker">Publications</p>
-            <h2 id="publications-title">Published research</h2>
-          </div>
+        <section class="page-section" id="publications" aria-labelledby="publications-title">
+          <h2 id="publications-title">Publications</h2>
 
-          <div class="publication-list">
-            <article class="publication">
-              <div class="pub-meta">2026</div>
-              <div>
-                <h3><a href="https://damiencapelle.com/wp-content/uploads/2025/04/ACM_2025.pdf" target="_blank" rel="noreferrer">University Research and the Market for Higher Education</a></h3>
-                <p><em>AEJ: Macroeconomics</em></p>
-                <p class="pub-authors">with Titan Alon and Damien Capelle</p>
-                <div class="pub-links">
-                  <a href="https://damiencapelle.com/wp-content/uploads/2025/04/ACM_2025.pdf" target="_blank" rel="noreferrer">Paper</a>
-                </div>
-              </div>
-            </article>
+          <article class="publication">
+            <h3>
+              <a href="https://damiencapelle.com/wp-content/uploads/2025/04/ACM_2025.pdf" target="_blank" rel="noreferrer">University Research and the Market for Higher Education</a>
+            </h3>
+            <p class="pub-meta">2026, <em>AEJ: Macroeconomics</em></p>
+            <p>with Titan Alon and Damien Capelle</p>
+            <p><a href="https://damiencapelle.com/wp-content/uploads/2025/04/ACM_2025.pdf" target="_blank" rel="noreferrer">Paper</a></p>
+          </article>
 
-            <article class="publication">
-              <div class="pub-meta">2024</div>
-              <div>
-                <h3><a href="https://onlinelibrary.wiley.com/doi/10.1111/jmcb.12989" target="_blank" rel="noreferrer">Progressive Taxation versus College Subsidies with College Dropout</a></h3>
-                <p><em>Journal of Money, Credit, and Banking</em></p>
-                <div class="pub-links">
-                  <a href="https://onlinelibrary.wiley.com/doi/10.1111/jmcb.12989" target="_blank" rel="noreferrer">Journal</a>
-                </div>
-              </div>
-            </article>
+          <article class="publication">
+            <h3>
+              <a href="https://onlinelibrary.wiley.com/doi/10.1111/jmcb.12989" target="_blank" rel="noreferrer">Progressive Taxation versus College Subsidies with College Dropout</a>
+            </h3>
+            <p class="pub-meta">2024, <em>Journal of Money, Credit, and Banking</em></p>
+            <p><a href="https://onlinelibrary.wiley.com/doi/10.1111/jmcb.12989" target="_blank" rel="noreferrer">Journal</a></p>
+          </article>
 
-            <article class="publication">
-              <div class="pub-meta">2022</div>
-              <div>
-                <h3><a href="https://drive.google.com/file/d/16YNfXzKAmdkJBV7BMQr-Z-pDTaAzGgMR/view" target="_blank" rel="noreferrer">College Education and Income Contingent Loans in Equilibrium</a></h3>
-                <p><em>Journal of Monetary Economics</em></p>
-                <p class="pub-authors">with Karol Mazur</p>
-                <div class="pub-links">
-                  <a href="https://drive.google.com/file/d/16YNfXzKAmdkJBV7BMQr-Z-pDTaAzGgMR/view" target="_blank" rel="noreferrer">Paper</a>
-                </div>
-              </div>
-            </article>
+          <article class="publication">
+            <h3>
+              <a href="https://drive.google.com/file/d/16YNfXzKAmdkJBV7BMQr-Z-pDTaAzGgMR/view" target="_blank" rel="noreferrer">College Education and Income Contingent Loans in Equilibrium</a>
+            </h3>
+            <p class="pub-meta">2022, <em>Journal of Monetary Economics</em></p>
+            <p>with Karol Mazur</p>
+            <p><a href="https://drive.google.com/file/d/16YNfXzKAmdkJBV7BMQr-Z-pDTaAzGgMR/view" target="_blank" rel="noreferrer">Paper</a></p>
+          </article>
 
-            <article class="publication">
-              <div class="pub-meta">2020</div>
-              <div>
-                <h3><a href="https://www.sciencedirect.com/science/article/abs/pii/S001429212030180X" target="_blank" rel="noreferrer">Optimal Timing of College Subsidies: Enrollment, Graduation, and the Skill Premium</a></h3>
-                <p><em>European Economic Review</em></p>
-                <div class="pub-links">
-                  <a href="https://www.sciencedirect.com/science/article/abs/pii/S001429212030180X" target="_blank" rel="noreferrer">Journal</a>
-                </div>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
+          <article class="publication">
+            <h3>
+              <a href="https://www.sciencedirect.com/science/article/abs/pii/S001429212030180X" target="_blank" rel="noreferrer">Optimal Timing of College Subsidies: Enrollment, Graduation, and the Skill Premium</a>
+            </h3>
+            <p class="pub-meta">2020, <em>European Economic Review</em></p>
+            <p><a href="https://www.sciencedirect.com/science/article/abs/pii/S001429212030180X" target="_blank" rel="noreferrer">Journal</a></p>
+          </article>
+        </section>
 
-      <section class="section muted" id="in-progress" aria-labelledby="in-progress-title">
-        <div class="section-inner">
-          <div class="section-heading">
-            <p class="section-kicker">Research in Progress</p>
-            <h2 id="in-progress-title">Ongoing projects</h2>
-          </div>
-          <div class="publication-list">
-            <article class="publication">
-              <div class="pub-meta">In Progress</div>
-              <div>
-                <h3>Alumni as Assets: Legacy Preferences and Donations in a Dynamic Model of Elite Colleges</h3>
-                <p class="pub-authors">with Damien Capelle and Alexander Monge-Naranjo</p>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
+        <section class="page-section" id="in-progress" aria-labelledby="in-progress-title">
+          <h2 id="in-progress-title">Research in Progress</h2>
+          <article class="publication">
+            <h3>Alumni as Assets: Legacy Preferences and Donations in a Dynamic Model of Elite Colleges</h3>
+            <p>with Damien Capelle and Alexander Monge-Naranjo</p>
+          </article>
+        </section>
 
-      <section class="section cv-contact" id="contact" aria-labelledby="contact-title">
-        <div class="section-inner contact-grid">
-          <div>
-            <p class="section-kicker">Contact</p>
-            <h2 id="contact-title">Kazushige Matsuda</h2>
-            <p>
-              Associate Professor at Keio University. Please use the email address listed here for research
-              correspondence and seminar invitations.
-            </p>
-            <a class="button primary compact" href="https://docs.google.com/document/d/1T2rbT7WUX3Q8B1uNR4nVDJ2wXpMG-qlX5laKw-EmkTM/edit?usp=sharing" target="_blank" rel="noreferrer">View CV</a>
-          </div>
-          <div class="contact-panel" aria-label="Contact details">
-            <p class="section-kicker">Details</p>
-            <ul class="contact-list">
-              <li><span>Email</span><a href="mailto:kazu.matsuda@keio.jp">kazu.matsuda@keio.jp</a></li>
-              <li><span>Affiliation</span><span>Keio University</span></li>
-              <li><span>Fields</span><span>Macroeconomics, Labor Economics, Economics of Higher Education</span></li>
-            </ul>
-          </div>
-        </div>
-      </section>
+        <section class="page-section" id="contact" aria-labelledby="contact-title">
+          <h2 id="contact-title">Contact</h2>
+          <ul class="plain-list">
+            <li>Email: <a href="mailto:kazu.matsuda@keio.jp">kazu.matsuda@keio.jp</a></li>
+            <li>Affiliation: Keio University</li>
+            <li><a href="https://docs.google.com/document/d/1T2rbT7WUX3Q8B1uNR4nVDJ2wXpMG-qlX5laKw-EmkTM/edit?usp=sharing" target="_blank" rel="noreferrer">Curriculum vitae</a></li>
+          </ul>
+        </section>
+      </div>
     </main>
 
     <footer class="site-footer">
