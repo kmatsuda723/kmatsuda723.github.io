@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Personal academic website for Kazuma Matsuda, featuring research, publications, teaching, CV, and contact information."
+    >
+    <title>Kazuma Matsuda | Researcher</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="Kazuma Matsuda home">
+        <span class="brand-mark">KM</span>
+        <span>Kazuma Matsuda</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" data-nav-toggle>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" data-nav>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#cv">CV</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <img class="hero-image" src="assets/research-hero.png" alt="A quiet university office with books, open notes, and research visualizations on a laptop.">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Researcher in Economics</p>
+          <h1 id="hero-title">Kazuma Matsuda</h1>
+          <p class="hero-copy">
+            I study how institutions, incentives, and human capital shape long-run economic outcomes.
+            This site collects my research, teaching materials, publications, and current projects.
+          </p>
+          <div class="hero-actions" aria-label="Primary links">
+            <a class="button primary" href="#publications">View publications</a>
+            <a class="button secondary" href="#contact">Get in touch</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro section-band" aria-label="Profile summary">
+        <div class="section-inner intro-grid">
+          <div>
+            <p class="section-kicker">Profile</p>
+            <h2>Research at the intersection of applied theory, data, and policy.</h2>
+          </div>
+          <div class="intro-text">
+            <p>
+              I am an economist working on questions in education, labor markets, innovation, and public policy.
+              My current research combines quantitative modeling with empirical evidence to understand how choices
+              by students, researchers, firms, and governments accumulate into aggregate outcomes.
+            </p>
+            <p>
+              Replace this paragraph with your current affiliation, appointment, office location, and a short
+              description of the audiences you usually write for.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="research" aria-labelledby="research-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="section-kicker">Research Areas</p>
+            <h2 id="research-title">Questions I work on</h2>
+          </div>
+          <div class="topic-grid">
+            <article class="topic-card">
+              <span class="topic-number">01</span>
+              <h3>Human Capital</h3>
+              <p>College major choice, skill formation, and the allocation of talent across sectors and fields.</p>
+            </article>
+            <article class="topic-card">
+              <span class="topic-number">02</span>
+              <h3>Innovation</h3>
+              <p>Research investment, scientific spillovers, and the institutional design of knowledge production.</p>
+            </article>
+            <article class="topic-card">
+              <span class="topic-number">03</span>
+              <h3>Public Policy</h3>
+              <p>How subsidies, tuition policy, and labor-market frictions affect welfare and distribution.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section muted" id="publications" aria-labelledby="publications-title">
+        <div class="section-inner">
+          <div class="section-heading split">
+            <div>
+              <p class="section-kicker">Publications</p>
+              <h2 id="publications-title">Selected work</h2>
+            </div>
+            <a class="text-link" href="#cv">Full CV</a>
+          </div>
+
+          <div class="publication-list">
+            <article class="publication">
+              <div class="pub-meta">Working Paper</div>
+              <div>
+                <h3>Field Choice, Research Funding, and the Supply of Scientific Labor</h3>
+                <p>
+                  A quantitative study of how funding and wage incentives influence the composition of advanced
+                  training and research employment.
+                </p>
+                <div class="pub-links">
+                  <a href="#" aria-label="Paper PDF placeholder">PDF</a>
+                  <a href="#" aria-label="Replication files placeholder">Code</a>
+                  <a href="#" aria-label="Slides placeholder">Slides</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="publication">
+              <div class="pub-meta">Revise and Resubmit</div>
+              <div>
+                <h3>University Policy and Labor-Market Sorting</h3>
+                <p>
+                  Evidence and model-based counterfactuals on how higher-education policy changes occupational
+                  choices and earnings profiles.
+                </p>
+                <div class="pub-links">
+                  <a href="#">PDF</a>
+                  <a href="#">Appendix</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="publication">
+              <div class="pub-meta">In Progress</div>
+              <div>
+                <h3>Measuring Spillovers from Public Research Investment</h3>
+                <p>
+                  New data construction and structural estimates of cross-field spillovers in research productivity.
+                </p>
+                <div class="pub-links">
+                  <a href="#">Abstract</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="updates-title">
+        <div class="section-inner updates-layout">
+          <div class="section-heading sticky-heading">
+            <p class="section-kicker">Updates</p>
+            <h2 id="updates-title">News and talks</h2>
+          </div>
+          <ol class="timeline">
+            <li>
+              <time datetime="2026-07">July 2026</time>
+              <p>New personal website launched. Add recent seminars, conference presentations, and paper updates here.</p>
+            </li>
+            <li>
+              <time datetime="2026-05">May 2026</time>
+              <p>Presented current work on research funding and field choice at a department seminar.</p>
+            </li>
+            <li>
+              <time datetime="2026-03">March 2026</time>
+              <p>Drafted new teaching materials for quantitative methods and applied economic modeling.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section muted" id="teaching" aria-labelledby="teaching-title">
+        <div class="section-inner">
+          <div class="section-heading">
+            <p class="section-kicker">Teaching</p>
+            <h2 id="teaching-title">Courses and supervision</h2>
+          </div>
+          <div class="teaching-grid">
+            <article>
+              <h3>Quantitative Economics</h3>
+              <p>Graduate and advanced undergraduate material on dynamic models, estimation, and policy counterfactuals.</p>
+            </article>
+            <article>
+              <h3>Applied Microeconomics</h3>
+              <p>Lectures and problem sets on education, labor, innovation, and public-policy evaluation.</p>
+            </article>
+            <article>
+              <h3>Student Advising</h3>
+              <p>Topics include research design, reproducible workflows, academic writing, and presentation practice.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cv-contact" id="cv" aria-labelledby="cv-title">
+        <div class="section-inner contact-grid">
+          <div>
+            <p class="section-kicker">CV</p>
+            <h2 id="cv-title">Curriculum vitae</h2>
+            <p>
+              Add your latest CV as <code>assets/cv.pdf</code>, then this button will work without changing the page.
+            </p>
+            <a class="button primary compact" href="assets/cv.pdf">Download CV</a>
+          </div>
+          <div id="contact" class="contact-panel" aria-labelledby="contact-title">
+            <p class="section-kicker">Contact</p>
+            <h2 id="contact-title">Reach me</h2>
+            <ul class="contact-list">
+              <li><span>Email</span><a href="mailto:kazuma.matsuda@example.edu">kazuma.matsuda@example.edu</a></li>
+              <li><span>Office</span><span>Department of Economics, Your University</span></li>
+              <li><span>Profiles</span><a href="#">Google Scholar</a> <a href="#">ORCID</a> <a href="#">GitHub</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span data-year></span> Kazuma Matsuda</p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
