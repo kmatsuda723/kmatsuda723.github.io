@@ -193,27 +193,6 @@ p {
   font-size: 0.9rem;
 }
 
-.links {
-  margin-top: 6px;
-}
-
-.paper-link {
-  display: inline-block;
-  padding: 1px 7px;
-  border: 1px solid #d9d9d9;
-  border-radius: 3px;
-  color: var(--link);
-  font-size: 12px;
-  line-height: 1.45;
-}
-
-.paper-link:hover,
-.paper-link:focus-visible {
-  color: var(--link-hover);
-  border-color: #c7c7c7;
-  text-decoration: none;
-}
-
 .site-footer {
   width: min(var(--max-width), calc(100% - 36px));
   margin: 0 auto;
