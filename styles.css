@@ -71,12 +71,6 @@ a:focus-visible {
   line-height: 1.15;
 }
 
-.author-title {
-  margin: 0 0 14px;
-  color: var(--heading);
-  font-size: 1.02rem;
-}
-
 .author-links {
   display: grid;
   gap: 10px;
