@@ -1,0 +1,50 @@
+{
+  "working_papers": [
+    {
+      "title": "Spatial Misallocation in Education: The Left-Behind and Land Reforms in China",
+      "year": "2026",
+      "authors": "with Karol Mazur and Chao Shen",
+      "url": "https://drive.google.com/file/d/1nzuZTDHmkbnsTxh0w-IXWzrHURzxIFSX/view"
+    },
+    {
+      "title": "The Great Gatsby Goes to College: Tuition, Inequality, and Intergenerational Mobility",
+      "year": "2026",
+      "authors": "with Damien Capelle",
+      "url": "https://damiencapelle.com/wp-content/uploads/2026/05/Capelle-Matsuda-The-Great-Gatsby-May-2026.pdf"
+    }
+  ],
+  "publications": [
+    {
+      "title": "University Research and the Market for Higher Education",
+      "year": "2026",
+      "venue": "AEJ: Macroeconomics",
+      "authors": "with Titan Alon and Damien Capelle",
+      "url": "https://damiencapelle.com/wp-content/uploads/2025/04/ACM_2025.pdf"
+    },
+    {
+      "title": "Progressive Taxation versus College Subsidies with College Dropout",
+      "year": "2024",
+      "venue": "Journal of Money, Credit, and Banking",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1111/jmcb.12989"
+    },
+    {
+      "title": "College Education and Income Contingent Loans in Equilibrium",
+      "year": "2022",
+      "venue": "Journal of Monetary Economics",
+      "authors": "with Karol Mazur",
+      "url": "https://drive.google.com/file/d/16YNfXzKAmdkJBV7BMQr-Z-pDTaAzGgMR/view"
+    },
+    {
+      "title": "Optimal Timing of College Subsidies: Enrollment, Graduation, and the Skill Premium",
+      "year": "2020",
+      "venue": "European Economic Review",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S001429212030180X"
+    }
+  ],
+  "in_progress": [
+    {
+      "title": "Alumni as Assets: Legacy Preferences and Donations in a Dynamic Model of Elite Colleges",
+      "authors": "with Damien Capelle and Alexander Monge-Naranjo"
+    }
+  ]
+}

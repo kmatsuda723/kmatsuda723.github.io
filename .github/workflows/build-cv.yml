@@ -1,0 +1,39 @@
+name: Build CV
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "cv.qmd"
+      - "data/publications.json"
+      - "scripts/build_site.py"
+      - ".github/workflows/build-cv.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-cv:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          tinytex: true
+
+      - name: Generate synced site and CV source
+        run: python3 scripts/build_site.py
+
+      - name: Render CV PDF
+        run: |
+          quarto render cv.qmd --to pdf
+          mkdir -p assets
+          mv cv.pdf assets/cv.pdf
+
+      - name: Commit generated files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Build CV PDF"
+          file_pattern: "index.html cv.qmd assets/cv.pdf"

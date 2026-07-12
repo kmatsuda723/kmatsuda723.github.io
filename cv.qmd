@@ -1,0 +1,42 @@
+---
+title: Kazushige Matsuda
+format:
+  pdf:
+    documentclass: article
+    geometry: margin=1in
+    fontsize: 11pt
+execute:
+  echo: false
+---
+
+Associate Professor, Keio University  
+Email: kazu.matsuda@keio.jp
+
+## Education
+
+- Ph.D., Princeton University, 2019
+
+## Research Interests
+
+Macroeconomics, labor economics, and the economics of higher education.
+
+## Working Papers
+
+- [Spatial Misallocation in Education: The Left-Behind and Land Reforms in China](https://drive.google.com/file/d/1nzuZTDHmkbnsTxh0w-IXWzrHURzxIFSX/view) (2026)
+  with Karol Mazur and Chao Shen
+- [The Great Gatsby Goes to College: Tuition, Inequality, and Intergenerational Mobility](https://damiencapelle.com/wp-content/uploads/2026/05/Capelle-Matsuda-The-Great-Gatsby-May-2026.pdf) (2026)
+  with Damien Capelle
+
+## Publications
+
+- [University Research and the Market for Higher Education](https://damiencapelle.com/wp-content/uploads/2025/04/ACM_2025.pdf) (2026), *AEJ: Macroeconomics*
+  with Titan Alon and Damien Capelle
+- [Progressive Taxation versus College Subsidies with College Dropout](https://onlinelibrary.wiley.com/doi/10.1111/jmcb.12989) (2024), *Journal of Money, Credit, and Banking*
+- [College Education and Income Contingent Loans in Equilibrium](https://drive.google.com/file/d/16YNfXzKAmdkJBV7BMQr-Z-pDTaAzGgMR/view) (2022), *Journal of Monetary Economics*
+  with Karol Mazur
+- [Optimal Timing of College Subsidies: Enrollment, Graduation, and the Skill Premium](https://www.sciencedirect.com/science/article/abs/pii/S001429212030180X) (2020), *European Economic Review*
+
+## Research in Progress
+
+- Alumni as Assets: Legacy Preferences and Donations in a Dynamic Model of Elite Colleges
+  with Damien Capelle and Alexander Monge-Naranjo
